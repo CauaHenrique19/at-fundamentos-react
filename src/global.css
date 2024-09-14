@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+
+  transition: all 0.2s;
+}
+
+:root {
+  --border-color: rgba(128, 128, 128, 0.301);
+  --black-opacity: rgba(0, 0, 0, 0.534);
+  --box-shadow-color: rgba(0, 0, 0, 0.1);
+
+  --primary-font-color: black;
+  --secondary-font-color: white;
+
+  --bg-color: white;
+  --hover-color: black;
+}
+
+.light-theme {
+  --hover-color: black;
+}
+
+.dark-theme {
+  --hover-color: white;
+  --primary-font-color: white;
+  --secondary-font-color: rgb(53, 53, 53);
+
+  --bg-color: #0f0f0f;
+  --hover-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+}

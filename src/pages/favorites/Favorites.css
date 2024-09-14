@@ -1,0 +1,14 @@
+.favorites-hotel-list {
+  padding: 50px;
+}
+
+.favorites-hotel-list h2 {
+  margin-bottom: 20px;
+  color: var(--primary-font-color);
+}
+
+.favorite-hotels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}

@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "name": "Copacabana Palace",
+    "description": "Um hotel icônico de luxo à beira-mar em Copacabana, com serviços de classe mundial.",
+    "city": "Rio de Janeiro",
+    "state": "Rio de Janeiro",
+    "price": 1200,
+    "services": [
+      "Wi-Fi",
+      "Café da manhã",
+      "Piscina",
+      "Estacionamento gratuito",
+      "Spa",
+      "Restaurante Gourmet"
+    ],
+    "stars": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Most_Expensive.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hotel Fasano Rio de Janeiro",
+    "description": "Um hotel moderno com vista para a Praia de Ipanema, conhecido por seu design e elegância.",
+    "city": "Rio de Janeiro",
+    "state": "Rio de Janeiro",
+    "price": 1800,
+    "services": [
+      "Wi-Fi",
+      "Piscina na cobertura",
+      "Café da manhã",
+      "Spa",
+      "Academia",
+      "Serviço de praia"
+    ],
+    "stars": 5,
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/71/60/cd/hotel-fasano-rio-de-janeiro.jpg?w=700&h=-1&s=1"
+  },
+  {
+    "id": 3,
+    "name": "Sheraton Grand Rio Hotel & Resort",
+    "description": "Um resort luxuoso à beira-mar com acesso exclusivo à Praia do Vidigal.",
+    "city": "Rio de Janeiro",
+    "state": "Rio de Janeiro",
+    "price": 750,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Restaurante",
+      "Café da manhã",
+      "Academia",
+      "Quadras de tênis",
+      "Spa"
+    ],
+    "stars": 5,
+    "image": "https://images.trvl-media.com/lodging/1000000/20000/10600/10581/55f20a16.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+  },
+  {
+    "id": 4,
+    "name": "Hotel Santa Teresa Rio MGallery",
+    "description": "Um hotel boutique de luxo no bairro histórico de Santa Teresa, com vista para a cidade e baía.",
+    "city": "Rio de Janeiro",
+    "state": "Rio de Janeiro",
+    "price": 900,
+    "services": [
+      "Wi-Fi",
+      "Spa",
+      "Restaurante",
+      "Piscina",
+      "Café da manhã",
+      "Estacionamento"
+    ],
+    "stars": 5,
+    "image": "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/2/2016/11/07142720/Santa-Teresal-gallery-Pool-1-1200x690.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hotel Emiliano Rio",
+    "description": "Hotel de luxo na Praia de Copacabana, com uma arquitetura moderna e sustentável.",
+    "city": "Rio de Janeiro",
+    "state": "Rio de Janeiro",
+    "price": 1500,
+    "services": [
+      "Wi-Fi",
+      "Spa",
+      "Restaurante",
+      "Piscina de borda infinita",
+      "Café da manhã",
+      "Serviço de praia"
+    ],
+    "stars": 5,
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/8c/f7/75/rooftop.jpg?w=700&h=-1&s=1"
+  },
+  {
+    "id": 6,
+    "name": "Windsor Barra Hotel",
+    "description": "Um hotel elegante localizado em frente à Praia da Barra da Tijuca, ideal para lazer e negócios.",
+    "city": "Rio de Janeiro",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfm1xFfEsjNpV4bsLAgrfM5xqPENXO253WZQ&s",
+    "price": 600,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Café da manhã",
+      "Restaurante",
+      "Academia",
+      "Estacionamento"
+    ],
+    "stars": 4,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 7,
+    "name": "Hilton Copacabana Rio de Janeiro",
+    "description": "Hotel de luxo com vistas deslumbrantes da Praia de Copacabana, perfeito para relaxar.",
+    "city": "Rio de Janeiro",
+    "image": "https://www.hilton.com/im/en/RIOCCHH/14274607/hilton-copacabana-piscina-r00.jpg?impolicy=crop&cw=5760&ch=3225&gravity=NorthWest&xposition=0&yposition=307&rw=768&rh=430",
+    "price": 1100,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Spa",
+      "Restaurante",
+      "Serviço de praia",
+      "Café da manhã"
+    ],
+    "stars": 5,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 8,
+    "name": "Miramar Hotel by Windsor",
+    "description": "Luxuoso hotel com localização privilegiada na Praia de Copacabana e excelente serviço.",
+    "city": "Rio de Janeiro",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/df/6a/98/miramar-hotel-by-windsor.jpg?w=700&h=-1&s=1",
+    "price": 850,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Café da manhã",
+      "Academia",
+      "Estacionamento gratuito",
+      "Serviço de praia"
+    ],
+    "stars": 5,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 9,
+    "name": "Arena Copacabana Hotel",
+    "description": "Hotel moderno com design elegante e vista para a Praia de Copacabana.",
+    "city": "Rio de Janeiro",
+    "image": "https://media.staticontent.com/media/pictures/1684a4fa-1cb9-4a4e-a16d-9dce83c5c9fb",
+    "price": 700,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Restaurante",
+      "Academia",
+      "Café da manhã",
+      "Serviço de praia"
+    ],
+    "stars": 4,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 10,
+    "name": "JW Marriott Hotel Rio de Janeiro",
+    "description": "Hotel de luxo localizado na orla de Copacabana, com serviços exclusivos e quartos requintados.",
+    "city": "Rio de Janeiro",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/497465946.jpg?k=1c98007690d74321723648f1b1f9084b9aa6368e8c1fab2405d314742358f5f7&o=&hp=1",
+    "price": 1200,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Restaurante",
+      "Academia",
+      "Café da manhã",
+      "Spa"
+    ],
+    "stars": 5,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 11,
+    "name": "Yoo2 Rio de Janeiro by Intercity",
+    "description": "Hotel boutique com design moderno, vista deslumbrante da Baía de Guanabara e o Pão de Açúcar.",
+    "city": "Rio de Janeiro",
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/78643945.jpg?k=ffef68c0a34a80310739cfd7e334d2f8e3e72cb4911c40188a2e6d9f7874adbe&o=&hp=1",
+    "price": 950,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Restaurante",
+      "Café da manhã",
+      "Academia",
+      "Bar na cobertura"
+    ],
+    "stars": 4,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 12,
+    "name": "PortoBay Rio de Janeiro",
+    "description": "Localizado em Copacabana, oferece vistas panorâmicas do mar e um serviço acolhedor.",
+    "city": "Rio de Janeiro",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/6b/d1/a3/porto-bay-rio-internacional.jpg?w=700&h=-1&s=1",
+    "price": 850,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Spa",
+      "Restaurante",
+      "Café da manhã",
+      "Serviço de praia"
+    ],
+    "stars": 4,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 13,
+    "name": "Fairmont Rio de Janeiro Copacabana",
+    "description": "Hotel de luxo com uma localização espetacular na Praia de Copacabana, perfeito para uma estadia memorável.",
+    "city": "Rio de Janeiro",
+    "image": "https://pontospravoar.com/wp-content/uploads/2020/02/IMG_0859.jpg",
+    "price": 1300,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Restaurante",
+      "Spa",
+      "Café da manhã",
+      "Estacionamento"
+    ],
+    "stars": 5,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 14,
+    "name": "Grand Hyatt Rio de Janeiro",
+    "description": "Hotel de luxo na Barra da Tijuca, oferecendo uma experiência de resort com praia exclusiva e excelente hospitalidade.",
+    "city": "Rio de Janeiro",
+    "image": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/08/29/1013/Grand-Hyatt-Rio-de-Janeiro-P443-Pool.jpg/Grand-Hyatt-Rio-de-Janeiro-P443-Pool.16x9.jpg?imwidth=2560",
+    "price": 1100,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Spa",
+      "Restaurante",
+      "Café da manhã",
+      "Serviço de praia"
+    ],
+    "stars": 5,
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 15,
+    "name": "Prodigy Santos Dumont",
+    "description": "Hotel moderno e confortável, com acesso direto ao Aeroporto Santos Dumont e uma vista incrível da Baía de Guanabara.",
+    "city": "Rio de Janeiro",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/c4/62/65/prodigy-santos-dumont.jpg?w=700&h=-1&s=1",
+    "price": 700,
+    "services": [
+      "Wi-Fi",
+      "Piscina",
+      "Café da manhã",
+      "Restaurante",
+      "Academia",
+      "Estacionamento"
+    ],
+    "stars": 4,
+    "state": "Rio de Janeiro"
+  }
+]
