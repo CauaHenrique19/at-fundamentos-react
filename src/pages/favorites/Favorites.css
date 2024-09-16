@@ -13,6 +13,12 @@
   gap: 16px;
 }
 
-.favorite-hotels .not-found-container {
-  width: 100%;
+@media (max-width: 1024px) {
+  .favorites-hotel-list {
+    padding: 20px;
+  }
+
+  .hotel-card {
+    width: 100%;
+  }
 }
