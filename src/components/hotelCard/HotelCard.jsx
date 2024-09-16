@@ -26,17 +26,19 @@ const HotelCard = ({
       )}
       <div className="hotel-card-info">
         <h2>{hotel.name}</h2>
-        <p className="hotel-stars">
-          {"★".repeat(hotel.stars)}
-          {"☆".repeat(5 - hotel.stars)}
-        </p>
-        <p>
-          {hotel.city}, {hotel.state}
-        </p>
-        <p className="hotel-price">R${hotel.price}/noite</p>
-        <Link to={`/hotels/${hotel.id}`} className="button-details-hotel">
-          Ver mais detalhes
-        </Link>
+        <div className="hotel-card-info-content">
+          <p className="hotel-stars">
+            {"★".repeat(hotel.stars)}
+            {"☆".repeat(5 - hotel.stars)}
+          </p>
+          <p>
+            {hotel.city}, {hotel.state}
+          </p>
+          <p className="hotel-price">R${hotel.price}/noite</p>
+          <Link to={`/hotels/${hotel.id}`} className="button-details-hotel">
+            Ver mais detalhes
+          </Link>
+        </div>
       </div>
     </div>
   );
