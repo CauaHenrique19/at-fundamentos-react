@@ -1,6 +1,9 @@
 .hotel-card {
   width: 400px;
 
+  display: flex;
+  flex-direction: column;
+
   box-shadow: 0px 4px 8px var(--box-shadow-color);
   border-radius: 8px;
   border: 1px solid var(--border-color);

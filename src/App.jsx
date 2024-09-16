@@ -28,10 +28,16 @@ const App = () => {
     <div className={theme}>
       <Router>
         <Routes>
-          <Route path="/" element={<HotelList />} />
-          <Route path="/hotels/:id" element={<HotelDetails />} />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="/at-fundamentos-react/" element={<HotelList />} />
+          <Route
+            path="/at-fundamentos-react/hotels/:id"
+            element={<HotelDetails />}
+          />
+          <Route
+            path="/at-fundamentos-react/favorites"
+            element={<Favorites />}
+          />
+          <Route path="/at-fundamentos-react/admin" element={<Admin />} />
         </Routes>
       </Router>
     </div>

@@ -19,13 +19,13 @@ const Menu = () => {
       </button>
       <ul className={`menu-list ${menuIsActive ? "active" : ""}`}>
         <li>
-          <Link to="/">Lista de Hotéis</Link>
+          <Link to="/at-fundamentos-react">Lista de Hotéis</Link>
         </li>
         <li>
-          <Link to="/favorites">Favoritos</Link>
+          <Link to="/at-fundamentos-react/favorites">Favoritos</Link>
         </li>
         <li>
-          <Link to="/admin">Administração</Link>
+          <Link to="/at-fundamentos-react/admin">Administração</Link>
         </li>
         <li className="theme-toggler" onClick={toggleTheme}>
           {theme === "light-theme" ? (

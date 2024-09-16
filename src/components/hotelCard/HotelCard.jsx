@@ -35,7 +35,10 @@ const HotelCard = ({
             {hotel.city}, {hotel.state}
           </p>
           <p className="hotel-price">R${hotel.price}/noite</p>
-          <Link to={`/hotels/${hotel.id}`} className="button-details-hotel">
+          <Link
+            to={`/at-fundamentos-react/hotels/${hotel.id}`}
+            className="button-details-hotel"
+          >
             Ver mais detalhes
           </Link>
         </div>
