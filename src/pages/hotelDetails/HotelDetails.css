@@ -43,3 +43,9 @@
   padding: 0px 15px;
   border-radius: 50px;
 }
+
+@media (max-width: 1024px) {
+  .hotel-details .hotel-info {
+    padding: 20px;
+  }
+}
