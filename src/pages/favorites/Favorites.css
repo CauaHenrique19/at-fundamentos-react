@@ -12,3 +12,7 @@
   flex-wrap: wrap;
   gap: 16px;
 }
+
+.favorite-hotels .not-found-container {
+  width: 100%;
+}
