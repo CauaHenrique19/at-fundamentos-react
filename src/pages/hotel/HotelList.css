@@ -92,7 +92,7 @@
   color: var(--primary-font-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hotel-list {
     padding: 20px;
   }
