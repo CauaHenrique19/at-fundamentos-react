@@ -15,7 +15,12 @@
       "Restaurante Gourmet"
     ],
     "stars": 5,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Most_Expensive.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Most_Expensive.jpg",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/175153144.jpg?k=896879f3a3c2ba89f946d1924b30bc5c8f5c7a852d9991a14dbdaf265e5db92a&o=&hp=1",
+      "https://wp.rotadeferias.com.br/wp-content/uploads/2018/09/Belmond-Copacabana-Palace-Fachada-noite-alta.jpg.webp",
+      "https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-cache/359394/b4308fe3cadc2823cc4f3ed9292c8961apraiadecopacabanaapiscinaeafachadadocopaqueembreveteraotomdebrancooriginalfotodedivulgacao/41,27,2478,1655/full,0.31/0/default.jpg"
+    ]
   },
   {
     "id": 2,
@@ -33,7 +38,12 @@
       "Serviço de praia"
     ],
     "stars": 5,
-    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/71/60/cd/hotel-fasano-rio-de-janeiro.jpg?w=700&h=-1&s=1"
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/71/60/cd/hotel-fasano-rio-de-janeiro.jpg?w=700&h=-1&s=1",
+    "additionalImages": [
+      "https://images.trvl-media.com/lodging/2000000/1550000/1542100/1542064/9aa1b775.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "https://diariodorio.com/wp-content/uploads/2021/07/Hotel-Fasano-em-Ipanema.jpg",
+      "https://www.cnnbrasil.com.br/viagemegastronomia/wp-content/uploads/sites/5/2023/09/Hotel-Fasano-Rio-de-Janeiro_Piscina_CredTomasRangel_03.jpg"
+    ]
   },
   {
     "id": 3,
@@ -52,7 +62,12 @@
       "Spa"
     ],
     "stars": 5,
-    "image": "https://images.trvl-media.com/lodging/1000000/20000/10600/10581/55f20a16.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+    "image": "https://images.trvl-media.com/lodging/1000000/20000/10600/10581/55f20a16.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/512245639.jpg?k=67102ea8c8e8bcc9640c93a4f2b4ad0564111640cb9d352e8d4c4083e31abf27&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/512245653.jpg?k=5d12ca84d759f92a024e094efed4927d14fcbe6e8e11dbfaf9619d65e8a70d1c&o=&hp=1",
+      "https://sheraton-poa.com.br/wp-content/uploads/2022/03/academia-piscina-e-spa-no-hotel-sheraton-rio-de-janeiro-3.jpg"
+    ]
   },
   {
     "id": 4,
@@ -70,7 +85,12 @@
       "Estacionamento"
     ],
     "stars": 5,
-    "image": "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/2/2016/11/07142720/Santa-Teresal-gallery-Pool-1-1200x690.jpg"
+    "image": "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/2/2016/11/07142720/Santa-Teresal-gallery-Pool-1-1200x690.jpg",
+    "additionalImages": [
+      "https://www.ahstatic.com/photos/a1x5_ho_00_p_1024x768.jpg",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/539856081.jpg?k=294d8ddac5d6bba3b4c80f626932f127bb59c227e9364e7fbff23de13ae1b0f7&o=&hp=1",
+      "https://s3.amazonaws.com/static-webstudio-accorhotels-usa-1.wp-ha.fastbooking.com/wp-content/uploads/sites/2/2016/10/10225647/Hotel-Santa-Teresa-Rio-MGallery-by-Sofitel-Loft-Suite-1-1500x690.jpg"
+    ]
   },
   {
     "id": 5,
@@ -88,7 +108,12 @@
       "Serviço de praia"
     ],
     "stars": 5,
-    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/8c/f7/75/rooftop.jpg?w=700&h=-1&s=1"
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/8c/f7/75/rooftop.jpg?w=700&h=-1&s=1",
+    "additionalImages": [
+      "https://emiliano.com.br/wp-content/uploads/2023/12/emiliano.com.br-pagina-inicial-emiliano-tbf7093b-2.jpg",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137103051.jpg?k=b192d9d8271dc6c45e906ef43ae5f1da25bf2d2afb5ade1e4800e9493279a082&o=&hp=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137109428.jpg?k=4565e36de37e64131a1e1873376c56dd4b98d5f0b630d6f06207a5bf34f53e12&o=&hp=1"
+    ]
   },
   {
     "id": 6,
@@ -106,7 +131,12 @@
       "Estacionamento"
     ],
     "stars": 4,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/df/79/8f/windsor-barra.jpg?w=700&h=-1&s=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/22/2d/5a/caption.jpg?w=700&h=-1&s=1",
+      "https://media.staticontent.com/media/pictures/8e694528-69c9-4eeb-9b01-34f9df47106d"
+    ]
   },
   {
     "id": 7,
@@ -124,7 +154,12 @@
       "Café da manhã"
     ],
     "stars": 5,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://images.trvl-media.com/lodging/5000000/4110000/4100200/4100177/7618e395.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/531848793.jpg?k=60f0a793ba628ab3efb80ea38de0ed9653911f7a92dfa2ab3552338e9be4f7b8&o=&hp=1",
+      "https://www.hilton.com/im/en/RIOCCHH/14026980/hilton-copacabana-1018-small.jpg?impolicy=crop&cw=4921&ch=3828&gravity=NorthWest&xposition=410&yposition=0&rw=684&rh=532"
+    ]
   },
   {
     "id": 8,
@@ -142,7 +177,12 @@
       "Serviço de praia"
     ],
     "stars": 5,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/58798277.jpg?k=59b632ca1191f51d4955bcbcd126345d46b5caa3d5b9c574796bbc0f1a8a5d23&o=&hp=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2TKzZMkWIVkJHoKQeEqwhHdjWvk850CGRA&s",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202593987.jpg?k=fb8fb14c093c053777301553ec242f04e21fad15b56da267d1e3ff21749ff46a&o=&hp=1"
+    ]
   },
   {
     "id": 9,
@@ -160,7 +200,12 @@
       "Serviço de praia"
     ],
     "stars": 4,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/495116566.jpg?k=43c7fc5d899542dbe9e3ad01bee5452600b19224316798e6b44f1d97c0218692&o=&hp=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/20/f1/95/suite.jpg?w=700&h=-1&s=1",
+      "https://irp.cdn-website.com/0080e48f/dms3rep/multi/Rooftop+Arena+Leme+editadas_4-1eaedac3.jpg"
+    ]
   },
   {
     "id": 10,
@@ -178,7 +223,12 @@
       "Spa"
     ],
     "stars": 5,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/505530827.jpg?k=b26da159c5322431c97bec7b6d5ab4c62a055a368f650c08d590456ffcbf038d&o=&hp=1",
+      "https://media.staticontent.com/media/pictures/0960e60d-2312-4808-9dd0-d536e9155f1d",
+      "https://cache.marriott.com/is/image/marriotts7prod/jw-riomc-pool-25785:Feature-Hor?wid=1920&fit=constrain"
+    ]
   },
   {
     "id": 11,
@@ -196,7 +246,12 @@
       "Bar na cobertura"
     ],
     "stars": 4,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://hoteliernews.com.br/wp-content/uploads/2020/08/020-yoo2-aps.jpg",
+      "https://www.kayak.com.br/rimg/himg/28/2d/31/ice-123563-65027827_3XL-180919.jpg?width=1366&height=768&crop=true",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/172106073.jpg?k=67800ec77e7aeb295aebeced677aed68f8142d5c40d27231216f8cf917caa54f&o=&hp=1"
+    ]
   },
   {
     "id": 12,
@@ -214,7 +269,12 @@
       "Serviço de praia"
     ],
     "stars": 4,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cdn.audleytravel.com/1050/749/79/1336045-portobay-rio-de-janeiro-rio-de-janeiro.webp",
+      "https://images.trvl-media.com/lodging/1000000/20000/14500/14441/33d28ff3.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/27094156.jpg?k=ada2f30666a262e58ad98965976d7aa163e94a9d27febf1c8601561d30947e99&o=&hp=1"
+    ]
   },
   {
     "id": 13,
@@ -232,7 +292,12 @@
       "Estacionamento"
     ],
     "stars": 5,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/466290937.jpg?k=1aca478ac2fd4b601f13be36cec0a141d7709f6d7db81cb88c5d276dc7ea1dba&o=&hp=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/3d/0d/d6/exterior.jpg?w=700&h=-1&s=1",
+      "https://hoteliernews.com.br/wp-content/uploads/2020/08/fairmont-rio-de-janeiro.jpg"
+    ]
   },
   {
     "id": 14,
@@ -250,7 +315,12 @@
       "Serviço de praia"
     ],
     "stars": 5,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://panoramadeviagem.com.br/wp-content/uploads/2019/11/grand-hyatt-rio-1024x642.jpg",
+      "https://bravusvaa.com/wp-content/uploads/2023/12/hyatt1.jpg",
+      "https://www.pacoteshyatt.com.br/wp-content/uploads/2023/09/Grand-Hyatt-Rio-de-Janeiro-Fachada-Wendy-Andrade-Marco-2020-1-1-2.jpg"
+    ]
   },
   {
     "id": 15,
@@ -268,6 +338,11 @@
       "Estacionamento"
     ],
     "stars": 4,
-    "state": "Rio de Janeiro"
+    "state": "Rio de Janeiro",
+    "additionalImages": [
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/137811051.jpg?k=e4bf334d753a84c40968465986636c552a911e4c2abdd0fbab19c1f2586cba52&o=&hp=1",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7b/c4/98/prodigy-hotel-santos.jpg?w=700&h=-1&s=1",
+      "https://cf.bstatic.com/xdata/images/hotel/max1024x768/136923700.jpg?k=82a9db66fcd0859c6fa13bfeb0ad9965ea3273e6f1b46a3f6784b89cbd326d74&o=&hp=1"
+    ]
   }
 ]
