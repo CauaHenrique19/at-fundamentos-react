@@ -21,6 +21,8 @@ const HotelList = () => {
     } else {
       storedHotels.push(...hotelsData);
       localStorage.setItem("hotels", JSON.stringify(storedHotels));
+      setHotels(storedHotels);
+      setFilteredHotels(storedHotels);
     }
 
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
