@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import Menu from "../../components/menu/Menu";
@@ -12,7 +12,7 @@ const HotelDetails = () => {
   useEffect(() => {
     const storedHotels = JSON.parse(localStorage.getItem("hotels"));
     const parsedId = parseInt(id);
-    const hotel = storedHotels.find(hotel => hotel.id === parsedId);
+    const hotel = storedHotels.find((hotel) => hotel.id === parsedId);
     setHotel(hotel);
   }, [id]);
 
@@ -23,11 +23,14 @@ const HotelDetails = () => {
       <Menu />
       <div className="hotel-details">
         <div className="hotel-images">
-          <img
-            src={hotel.image}
-            alt={`Imagem ${hotel.name}`}
-            className="hotel-image"
-          />
+          {[hotel.image, ...hotel.additionalImages].map((image, index) => (
+            <img
+              key={index}
+              src={image}
+              alt={`Imagem ${index + 1} - ${hotel.name}`}
+              className="hotel-image"
+            />
+          ))}
         </div>
         <div className="hotel-info">
           <div className="hotel-name">
