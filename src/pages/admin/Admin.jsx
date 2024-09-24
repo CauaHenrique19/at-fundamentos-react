@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import { Toaster, toast } from "sonner";
 
 import Menu from "../../components/menu/Menu";
@@ -12,6 +11,9 @@ const Admin = () => {
     id: "",
     name: "",
     image: "",
+    additionalImage1: "",
+    additionalImage2: "",
+    additionalImage3: "",
     stars: 1,
     city: "",
     state: "",
@@ -20,29 +22,34 @@ const Admin = () => {
     services: "",
   });
 
-  const navigate = useNavigate();
-
-  const handleChange = e => {
+  const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     try {
       e.preventDefault();
+
+      const additionalImages = [
+        formData.additionalImage1,
+        formData.additionalImage2,
+        formData.additionalImage3,
+      ];
 
       const newHotel = {
         ...formData,
         stars: parseInt(formData.stars),
         price: parseFloat(formData.price),
-        services: formData.services.split(",").map(service => service.trim()),
+        services: formData.services.split(",").map((service) => service.trim()),
+        additionalImages,
       };
 
       if (newHotel.id) {
         const indexNewHotel = hotels.findIndex(
-          hotel => hotel.id === newHotel.id
+          (hotel) => hotel.id === newHotel.id
         );
         hotels[indexNewHotel] = newHotel;
         setHotels(hotels);
@@ -58,6 +65,9 @@ const Admin = () => {
         id: "",
         name: "",
         image: "",
+        additionalImage1: "",
+        additionalImage2: "",
+        additionalImage3: "",
         stars: 1,
         city: "",
         state: "",
@@ -75,13 +85,16 @@ const Admin = () => {
     }
   };
 
-  const handleEdit = hotel => {
+  const handleEdit = (hotel) => {
     setFormData({
       id: hotel.id,
       name: hotel.name,
       description: hotel.description,
       city: hotel.city,
       image: hotel.image,
+      additionalImage1: hotel.additionalImages[0],
+      additionalImage2: hotel.additionalImages[1],
+      additionalImage3: hotel.additionalImages[2],
       price: hotel.price,
       services: hotel.services.join(","),
       stars: hotel.stars,
@@ -89,10 +102,10 @@ const Admin = () => {
     });
   };
 
-  const handleDelete = hotelToDelete => {
+  const handleDelete = (hotelToDelete) => {
     try {
       const updatedHotels = hotels.filter(
-        hotel => hotel.id !== hotelToDelete.id
+        (hotel) => hotel.id !== hotelToDelete.id
       );
       localStorage.setItem("hotels", JSON.stringify(updatedHotels));
       setHotels(updatedHotels);
@@ -156,6 +169,38 @@ const Admin = () => {
                   <option value="4">4 Estrelas</option>
                   <option value="5">5 Estrelas</option>
                 </select>
+              </label>
+            </div>
+            <div className="input-group">
+              <label>
+                Imagem Adicional 1 (URL):
+                <input
+                  type="url"
+                  name="additionalImage1"
+                  value={formData.additionalImage1}
+                  onChange={handleChange}
+                  required
+                />
+              </label>
+              <label>
+                Imagem Adicional 2 (URL):
+                <input
+                  type="url"
+                  name="additionalImage2"
+                  value={formData.additionalImage2}
+                  onChange={handleChange}
+                  required
+                />
+              </label>
+              <label>
+                Imagem Adicional 3 (URL):
+                <input
+                  type="url"
+                  name="additionalImage3"
+                  value={formData.additionalImage3}
+                  onChange={handleChange}
+                  required
+                />
               </label>
             </div>
             <div className="input-group">
