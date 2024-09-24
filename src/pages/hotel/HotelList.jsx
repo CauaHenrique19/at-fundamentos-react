@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import Menu from "../../components/menu/Menu";
 import HotelCard from "../../components/hotelCard/HotelCard";
 
+import hotelsData from "../../data/hotels.json";
 import "./HotelList.css";
 
 const HotelList = () => {
@@ -12,38 +13,41 @@ const HotelList = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    const storedHotels = JSON.parse(localStorage.getItem("hotels"));
+    const storedHotels = JSON.parse(localStorage.getItem("hotels")) || [];
 
-    if (storedHotels) {
+    if (storedHotels.length) {
       setHotels(storedHotels);
       setFilteredHotels(storedHotels);
+    } else {
+      storedHotels.push(...hotelsData);
+      localStorage.setItem("hotels", JSON.stringify(storedHotels));
     }
 
     const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(favorites);
   }, []);
 
-  const handleSearch = e => {
+  const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);
 
-    const filtered = hotels.filter(hotel =>
+    const filtered = hotels.filter((hotel) =>
       hotel.name.toLowerCase().includes(term)
     );
     setFilteredHotels(filtered);
   };
 
-  const isFavorited = hotel => {
-    const favorited = favorites.some(favorite => favorite.id === hotel.id);
+  const isFavorited = (hotel) => {
+    const favorited = favorites.some((favorite) => favorite.id === hotel.id);
     return favorited;
   };
 
-  const handleFavorite = hotel => {
+  const handleFavorite = (hotel) => {
     const favorited = isFavorited(hotel);
 
     if (favorited) {
       const newFavorites = favorites.filter(
-        favorite => favorite.id !== hotel.id
+        (favorite) => favorite.id !== hotel.id
       );
 
       setFavorites(newFavorites);
@@ -56,7 +60,7 @@ const HotelList = () => {
     localStorage.setItem("favorites", JSON.stringify(newFavorites));
   };
 
-  const handleOrder = e => {
+  const handleOrder = (e) => {
     const field = e.target.value;
 
     if (!field) {
@@ -102,7 +106,7 @@ const HotelList = () => {
         </div>
         <div className="hotels">
           {filteredHotels.length ? (
-            filteredHotels.map(hotel => (
+            filteredHotels.map((hotel) => (
               <HotelCard
                 key={hotel.id}
                 showFavoriteButton={true}
